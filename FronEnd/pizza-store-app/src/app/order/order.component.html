@@ -87,9 +87,7 @@
                        <div  *ngIf="selectedToppingsNumber > 0"> No of Toppings : {{ selectedToppingsNumber }}</div>
                        <div  *ngIf="selectedToppingsNumber > 0">  Toppings Price :{{ selectedToppingsNumber * 100 }} </div>
                        <div *ngIf="selectedPizzaNumber > 0">  Total Amount : {{ (selectedToppingsNumber * 100) + (selectedPizzaPrice * selectedPizzaNumber ) }} </div>
-                       <!-- <div *ngIf="selectedPizzaTypeId === 2">  Total Amount : {{ (selectedToppingsNumber * 100) + (selectedPizzaPrice * selectedPizzaNumber * 1.25 ) }} </div>
-                       <div *ngIf="selectedPizzaTypeId === 3">  Total Amount : {{ (selectedToppingsNumber * 100) + (selectedPizzaPrice * selectedPizzaNumber * 1.75) }} </div>
-                       -->
+                      
                     </div>
                   </div>
                 </div>
